@@ -14,18 +14,11 @@ pd.set_option("display.width", 500)
 pd.set_option("display.float_format", lambda x: "%.4f" % x)
 
 """
-    - CRM müşteriler ile kurulucak olan iletişimi farklı açılardan, yüksek farkındalıklar ile gerçekleştirme imkanı 
-    sağlar.
-    - Crm analitiği çalışmaları ile amacımız tüm müşteri ilişkileri sürecini veriye dayalı olarak daha verimli hale 
-    getimeye çalışmaktır.
-    - Bu proje ile CLTV(Customer LifeTime Value) tahmini yaparak bir CRM uygulaması yapmış olacağız.
-"""
+    - CRM stands for customer relationship management. It is a term used to describe the strategies, technologies, and practices that businesses use to manage and analyze customer interactions and data throughout the customer lifecycle. The goal of CRM is to improve customer relationships and business outcomes by organizing and automating business processes, such as sales, marketing, and customer service.
 
-"""
-CLTV 
-    - CLTV bir müşterinin şirkette kaldığı sürece şirkete bırakacağı toplam para değeridir. Yani bir müşterinin şirketle
-    olan iletişimi süresince şirkete vereceği parasal değerdir.
-    - Yani aslında müşterilerin geçmişteki davranışlarına bakarak gelecek hakkında bir önsezi elde edilir.
+    - CRM systems typically include a range of tools and features that help businesses manage and analyze customer data, such as contact lists, customer interactions, sales data, and marketing performance. These tools can be used to automate and streamline a variety of business processes, such as lead generation, sales forecasting, and customer service.
+
+    - CRM systems can be implemented in a variety of ways, including as on-premises software, as a cloud-based service, or as a combination of both. CRM systems can be used by businesses of all sizes and across a wide range of industries, and are often customized to meet the specific needs and goals of each organization.
 """
 
 """
@@ -45,28 +38,24 @@ Customer LifeTime Value Prediction
 
 """
 İş Problemi:
-    FLO satış ve pazarlama faaliyetleri için roadmap belirlemek istemektedir. Şirketin orta uzun vadeli plan
-    yapabilmesi için var olan müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin tahmin edilmesi
-    gerekmektedir.
+FLO would like to set a roadmap for sales and marketing activities. In order for the company to make a medium-long-term plan,
+it is necessary to estimate the potential value that existing customers will provide to the company in the future.
 """
 
 """
-Veri Seti Hikayesi:
-Veri seti Flo’dan son alışverişlerini 2020 - 2021 yıllarında OmniChannel (hem online hem offline alışveriş yapan) olarak 
-yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
+Features
 
-    master_id: Eşsiz müşteri numarası
-    order_channel: Alışveriş yapılan platforma ait hangi kanalın kullanıldığı (Android, ios, Desktop, Mobile)
-    last_order_channel: En son alışverişin yapıldığı kanal
-    first_order_date: Müşterinin yaptığı ilk alışveriş tarihi
-    last_order_date: Müşterinin yaptığı son alışveriş tarihi
-    last_order_date_online: Müşterinin online platformda yaptığı son alışveriş tarihi
-    last_order_date_offline: Müşterinin offline platformda yaptığı son alışveriş tarihi
-    order_num_total_ever_online: Müşterinin online platformda yaptığı toplam alışveriş sayısı
-    order_num_total_ever_offline: Müşterinin offline'da yaptığı toplam alışveriş sayısı
-    customer_value_total_ever_offline: Müşterinin offline alışverişlerinde ödediği toplam ücret
-    customer_value_total_ever_online: Müşterinin online alışverişlerinde ödediği toplam ücret
-    interested_in_categories_12: Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
+- master_id : Unique Customer Number
+- order_channel : Which channel of the shopping platform is used (Android, IOS, Desktop, Mobile)
+- last_order_channel : The channel where the most recent purchase was made
+- first_order_date : Date of the customer's first purchase
+- last_order_channel : Customer's previous shopping history
+- last_order_date_offline : The date of the last purchase made by the customer on the offline platform
+- order_num_total_ever_online : Total number of purchases made by the customer on the online platform
+- order_num_total_ever_offline : Total number of purchases made by the customer on the offline platform
+- customer_value_total_ever_offline : Total fees paid for the customer's offline purchases
+- customer_value_total_ever_online :  Total fees paid for the customer's online purchases
+- interested_in_categories_12 : List of categories the customer has shopped in the last 12 months
 """
 # GÖREV 1: Veriyi Hazırlama
 
