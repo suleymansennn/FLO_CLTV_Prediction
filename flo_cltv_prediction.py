@@ -14,24 +14,6 @@ pd.set_option("display.width", 500)
 pd.set_option("display.float_format", lambda x: "%.4f" % x)
 
 """
-    - CRM stands for customer relationship management. It is a term used to describe the strategies, technologies, and practices that businesses use to manage and analyze customer interactions and data throughout the customer lifecycle. The goal of CRM is to improve customer relationships and business outcomes by organizing and automating business processes, such as sales, marketing, and customer service.
-    - CRM systems typically include a range of tools and features that help businesses manage and analyze customer data, such as contact lists, customer interactions, sales data, and marketing performance. These tools can be used to automate and streamline a variety of business processes, such as lead generation, sales forecasting, and customer service.
-    - CRM systems can be implemented in a variety of ways, including as on-premises software, as a cloud-based service, or as a combination of both. CRM systems can be used by businesses of all sizes and across a wide range of industries, and are often customized to meet the specific needs and goals of each organization.
-"""
-
-"""
-Customer LifeTime Value Prediction 
-    - Customer lifetime value (CLV) is a measure of the total value that a customer is expected to generate for a business over the course of their relationship with the company. It is often used to help businesses make decisions about marketing, customer acquisition, and customer retention efforts.
-    - To calculate CLV, businesses typically consider factors such as the customer's average purchase value, the number of purchases they make over a given time period, and the length of time they are expected to remain a customer. CLV can be calculated for individual customers or for a group of customers.
-    - Businesses use CLV to make informed decisions about how to allocate their resources. For example, a business may decide to invest more in acquiring and retaining customers with a high CLV, as these customers are expected to generate more revenue over the long term. Alternatively, a business may decide to focus on acquiring more customers with a lower CLV if they can do so at a lower cost.
-    - Overall, CLV is a useful tool for businesses looking to optimize their marketing and customer acquisition efforts and maximize the value of their customer base.
-
-    CLTV = Purchase Frequency * Average Order Value
-    CLTV = Expected Number of Transaction * Expected Average Profit
-    CLTV = BG/NBD Model * Gamma Gamma Submodel
-"""
-
-"""
 Business Problem:
 FLO would like to set a roadmap for sales and marketing activities. In order for the company to make a medium-long-term plan,
 it is necessary to estimate the potential value that existing customers will provide to the company in the future.
