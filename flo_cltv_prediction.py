@@ -30,9 +30,13 @@ CLTV
 
 """
 Customer LifeTime Value Prediction 
-    - Zaman projeksiyonlu olasılıksal lifetime value tahmini yapılır.
-    - Bütün kitlenin satın alma davranışları olasılıksal olarak modellenir. Daha sonra modeli koşullu, kişi özelinde 
-    biçimlendirerek beklenen satın almayı tahminleyeceğiz.
+    - Customer lifetime value (CLV) is a measure of the total value that a customer is expected to generate for a business over the course of their relationship with the company. It is often used to help businesses make decisions about marketing, customer acquisition, and customer retention efforts.
+
+    - To calculate CLV, businesses typically consider factors such as the customer's average purchase value, the number of purchases they make over a given time period, and the length of time they are expected to remain a customer. CLV can be calculated for individual customers or for a group of customers.
+
+    - Businesses use CLV to make informed decisions about how to allocate their resources. For example, a business may decide to invest more in acquiring and retaining customers with a high CLV, as these customers are expected to generate more revenue over the long term. Alternatively, a business may decide to focus on acquiring more customers with a lower CLV if they can do so at a lower cost.
+
+    - Overall, CLV is a useful tool for businesses looking to optimize their marketing and customer acquisition efforts and maximize the value of their customer base.
     
     CLTV = Purchase Frequency * Average Order Value
     CLTV = Expected Number of Transaction * Expected Average Profit
